@@ -1,0 +1,27 @@
+<div class="container">
+
+  <!-- TITRE Formulaire -->
+  <h1 class="text-center text-info mt-4 mb-4">Ajouter un produit :</h1>
+
+  <!-- Formulaire DEBUT -->
+  <form (ngSubmit)="Save_prod(produit)" #produit="ngForm">
+    <div class="form-group">
+      <label>Nom de votre produit</label>
+      <input type="text" class="form-control" name="title" ngModel required placeholder="Entrer Nom">
+    </div>
+    <div class="form-group">
+      <label for=""></label>
+      <input type="text" class="form-control" name="description" ngModel required placeholder="Description">
+    </div>
+    <div class="form-group">
+      <label for=""></label>
+      <input type="text" class="form-control" name="image" ngModel required placeholder="URL de l'image">
+    </div>
+    <div class="form-group">
+      <label for=""></label>
+      <input type="number" class="form-control" name="price" ngModel required placeholder="Prix">
+    </div>
+    <button type="subit" class="btn btn-primary">Valider</button>
+  </form>
+</div>
+<!-- Formulaire FIN -->

@@ -1,0 +1,75 @@
+<div class="container">
+  <h1 class="text-center text-warning mt-4 mb-4">La liste de mes {{products.length}} produits :</h1>
+
+    <section class="row">
+
+      <!-- DEBUT FORMULAIRE PRICE RANGE -->
+
+      <div class="col-6">
+        <h6 class="text-info text-center">Search by price range</h6>
+        <form>
+          <div class="row">
+            <div class="col-4">
+              <div class="form-group">
+                <input type="number" class="form-control" placeholder="Enter min. price">
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="form-group">
+                <input type="number" class="form-control" placeholder="Enter max. price">
+              </div>
+            </div>
+            <div class="col-4">
+              <button class="btn btn-primary">Search by price range</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- FIN FORMULAIRE PRICE RANGE -->
+
+
+      <!-- DEBUT FORMULAIRE KEYWORD -->
+
+      <div class="col-6">
+        <h6 class="text-info text-center">Search by price range</h6>
+        <form>
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter keyword">
+              </div>
+            </div>
+            <div class="col-6">
+              <button class="btn btn-primary">Search by keyword</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- FIN FORMULAIRE KEYWORD -->
+
+      <div class=" alert alert-success text-center ml-4 mb-4 pl-4 pb-4" *ngIf="afficher">
+        The element has been deleted
+      </div>
+
+      <div class="col-4" *ngFor="let product of products">
+          <div class="card overflow-auto border border-5 rounded m-5" style="width: 22rem; height: 45rem;" [ngClass]="{'border-success': product.available, 'border-danger': !product.available}">
+            <img src="{{product.image}}" class="card-img-top" alt="{{product.title}}" style="height: 18rem;">
+            <div class="card-body">
+
+              <h5 class="card-title">{{product.title}}</h5>
+              <p class="card-text">{{product.description}}</p>
+
+              <div class="d-flex justify-content-between">
+                <a href="#" class="btn btn-primary">{{product.price}}€</a>
+                <button class="btn btn-danger r-4" (click)="supprimer(product.id)">Delete</button>
+                <button class="btn btn-success" (click)="changeAvailability(product)">Disponible</button>
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </section>
+
+</div>
