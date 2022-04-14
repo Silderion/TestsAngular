@@ -32,4 +32,9 @@ export class ProduitsService {
     let max = search.max;
     return this.http.get("http://localhost:3000/products?price_gte="+min+"&price_lte="+max);
   }
+
+  searchByKeywordService(search:any){
+    let keyword = search.keyword;
+    return this.http.get("http://localhost:3000/product?q="+keyword);
+  }
 }

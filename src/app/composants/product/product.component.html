@@ -30,14 +30,13 @@
 
 
       <!-- DEBUT FORMULAIRE KEYWORD -->
-
       <div class="col-6">
         <h6 class="text-info text-center">Search by price range</h6>
-        <form>
+        <form (ngSubmit)="searchByKeyword(keywordForm)" #keywordForm="ngForm">
           <div class="row">
             <div class="col-6">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Enter keyword">
+                <input type="text" name="keyword" class="form-control" ngModel placeholder="Enter keyword">
               </div>
             </div>
             <div class="col-6">
@@ -46,7 +45,6 @@
           </div>
         </form>
       </div>
-
       <!-- FIN FORMULAIRE KEYWORD -->
 
       <div class=" alert alert-success text-center mt-4 ml-4 mb-4 pl-4 pb-4" *ngIf="afficher">
@@ -62,9 +60,9 @@
               <p class="card-text">{{product.description}}</p>
 
               <div class="d-flex justify-content-between">
-                <a href="#" class="btn btn-primary">{{product.price}}€</a>
+                <a href="#" class="btn btn-success">{{product.price}}€</a>
+                <button class="btn btn-warning" (click)="changeAvailability(product)">Available</button>
                 <button class="btn btn-danger r-4" (click)="supprimer(product.id)">Delete</button>
-                <button class="btn btn-success" (click)="changeAvailability(product)">Available</button>
               </div>
 
             </div>

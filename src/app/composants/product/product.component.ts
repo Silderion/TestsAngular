@@ -41,4 +41,11 @@ afficher:boolean = false;
     })
   }
 
+  searchByKeyword(search:any){
+    let test2 = search.value
+    this.ps.searchByKeywordService(test2).subscribe(data => {
+      this.products = data;
+    })
+  }
+
 }
