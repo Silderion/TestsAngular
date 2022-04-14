@@ -7,16 +7,16 @@
 
       <div class="col-6">
         <h6 class="text-info text-center">Search by price range</h6>
-        <form>
+        <form (ngSubmit)="searchByRange(productForm)" #productForm="ngForm">
           <div class="row">
             <div class="col-4">
               <div class="form-group">
-                <input type="number" class="form-control" placeholder="Enter min. price">
+                <input type="number" name="min" class="form-control" ngModel placeholder="Enter min. price">
               </div>
             </div>
             <div class="col-4">
               <div class="form-group">
-                <input type="number" class="form-control" placeholder="Enter max. price">
+                <input type="number" name="max" class="form-control" ngModel placeholder="Enter max. price">
               </div>
             </div>
             <div class="col-4">
@@ -49,7 +49,7 @@
 
       <!-- FIN FORMULAIRE KEYWORD -->
 
-      <div class=" alert alert-success text-center ml-4 mb-4 pl-4 pb-4" *ngIf="afficher">
+      <div class=" alert alert-success text-center mt-4 ml-4 mb-4 pl-4 pb-4" *ngIf="afficher">
         The element has been deleted
       </div>
 
@@ -64,7 +64,7 @@
               <div class="d-flex justify-content-between">
                 <a href="#" class="btn btn-primary">{{product.price}}€</a>
                 <button class="btn btn-danger r-4" (click)="supprimer(product.id)">Delete</button>
-                <button class="btn btn-success" (click)="changeAvailability(product)">Disponible</button>
+                <button class="btn btn-success" (click)="changeAvailability(product)">Available</button>
               </div>
 
             </div>

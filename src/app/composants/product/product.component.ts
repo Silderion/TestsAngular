@@ -29,8 +29,15 @@ afficher:boolean = false;
   }
 
   changeAvailability(product:any){
-    this.ps.disponible(product.id, product.available).subscribe(()=>{
+    this.ps.disponible(product.id, product.available).subscribe(data=>{
       this.getProduits();
+    })
+  }
+
+  searchByRange(search:any){
+    let test = search.value
+    this.ps.searchByRangeService(test).subscribe(data => {
+      this.products = data;
     })
   }
 

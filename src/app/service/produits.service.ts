@@ -27,4 +27,9 @@ export class ProduitsService {
       return this.http.patch("http://localhost:3000/"+id, {available: true})
     }
   }
+  searchByRangeService(search:any){
+    let min = search.min;
+    let max = search.max;
+    return this.http.get("http://localhost:3000/products?price_gte="+min+"&price_lte="+max);
+  }
 }

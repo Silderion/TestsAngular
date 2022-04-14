@@ -5,7 +5,7 @@
       "title": "Reichskrone",
       "description": "A hoop crown with a characteristic octagonal shape, was the coronation crown of the Holy Roman Emperor, probably from the late 10th century until the dissolution of the Holy Roman Empire in 1806. The crown was used in the coronation of the King of the Romans, the title assumed by the Emperor-elect immediately after his election. It is now kept in the Imperial Treasury at the Hofburg in Vienna, Austria.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Holy_Roman_Empire_Crown_%28Imperial_Treasury%292.jpg/220px-Holy_Roman_Empire_Crown_%28Imperial_Treasury%292.jpg",
-      "price": "44 000 000",
+      "price": 44000000,
       "available": true
     },
     {
@@ -13,7 +13,7 @@
       "title": "Crown Jewels",
       "description": "Originally the Crown Jewels of England, are a collection of royal ceremonial objects kept in the Tower of London which include the coronation regalia and vestments worn by British monarchs. Symbols of 800 years of monarchy, the coronation regalia are the only working set in Europe and the collection is the most historically complete of any regalia in the world.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Saint_Edward%27s_Crown.jpg/255px-Saint_Edward%27s_Crown.jpg",
-      "price": "46 000 000",
+      "price": 46000000,
       "available": false
     },
     {
@@ -21,7 +21,7 @@
       "title": "Monomachus Crown",
       "description": "The Monomachus Crown (Greek: Στέμμα του Μονομάχου; Hungarian: Monomakhosz-korona) is a set of pieces of engraved Byzantine goldwork, decorated with cloisonné enamel, in the Hungarian National Museum in Budapest, Hungary. It consists of seven gold plates depicting Byzantine Emperor Constantine IX Monomachus, his wife Zoe, her sister Theodora, two dancers and two allegorical figures.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Monomacho%27s_crown_-_circa_1042_Budapest.JPG/320px-Monomacho%27s_crown_-_circa_1042_Budapest.JPG",
-      "price": "50 000 000",
+      "price": 50000000,
       "available": true
     },
     {
@@ -29,135 +29,63 @@
       "title": "Monomakh's Cap",
       "description": "The Monomakh's Cap (Russian: шапка Мономаха, romanized: shapka Monomakha), also called the Golden Cap (Russian: шапка Золотая, romanized: shapka Zolotaya), is a chief relic of the Russian Grand Princes and Tsars. It is a symbol-crown of the Russian autocracy, and is the oldest of the crowns currently exhibited at the Imperial treasury section of the Kremlin Armoury.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Armoury-flickr09.jpg/266px-Armoury-flickr09.jpg",
-      "price": "32 000 000",
+      "price": 32000000,
       "available": true
     },
     {
       "title": "Crown of Empress Eugénie",
       "description": "The crown of Empress Eugénie was created in 1855 by Gabriel Lemonnier for the World's fair, like the one of the Emperor which was destroyed in 1887. But Napoleon III finally chose not to be crowned. Her diadem by the same jeweller is as well presented in the Louvre with a large diamond brooch by Alfred Bapst bearing two big Mazarin stones, as well as a large corsage diamond knot and a pearl and diamond shoulder brooch, both by François Kramer.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Crown_of_Empress_Eugenie.png",
-      "price": "49 000 000",
+      "price": 49000000,
       "id": 5,
       "available": true
     },
     {
       "id": 6,
       "title": "Joyeuse",
-      "description": "Joyeuse est, d'une part, le nom de l'épée de Charlemagne dans la Chanson de Roland, et d'autre part, le nom d'une épée utilisée lors du sacre des rois de France à partir du XIIe ou du XIIIe siècle, dite « épée de Charlemagne ». Elle est l'un des plus anciens regalia du royaume de France qui subsistent actuellement. ",
+      "description": "Joyeuse (pronounced [ʒwajøz] (audio speaker iconlisten); Old French: Joiuse; meaning 'joyous, joyful') was, in medieval legend, the sword wielded by Charlemagne as his personal weapon. A sword identified as Joyeuse was used in French royal coronation ceremonies since the 13th century, and is now kept at the Louvre museum.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ep%C3%A9e_Joyeuse.jpg/390px-Ep%C3%A9e_Joyeuse.jpg",
-      "price": "38 000 000",
+      "price": 38000000,
       "available": true
     },
     {
       "id": 7,
       "title": "Crown of Louis XV",
-      "description": "Of about 20 documented royal crowns of the Ancien Régime,[8] the only surviving one from the destructions of 1590 and 1793 is the crown of Louis XV.[9] The king had the Regent Diamond set in the lower part of the fleur-de-lis in the front of his crown, while eight of the famous Mazarin diamonds that the cardinal had bequeathed to the French Crown are set in the other seven fleur-de-lis and in the circlet of the crown.",
+      "description": "Of about 20 documented royal crowns of the Ancien Régime, the only surviving one from the destructions of 1590 and 1793 is the crown of Louis XV. The king had the Regent Diamond set in the lower part of the fleur-de-lis in the front of his crown, while eight of the famous Mazarin diamonds that the cardinal had bequeathed to the French Crown are set in the other seven fleur-de-lis and in the circlet of the crown.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Crowns%2C_Mus%C3%A9e_du_Louvre%2C_April_2011blackened.jpg/220px-Crowns%2C_Mus%C3%A9e_du_Louvre%2C_April_2011blackened.jpg",
-      "price": "58 000 000",
+      "price": 58000000,
       "available": false
     },
     {
       "id": 8,
-      "title": "Monomachus Crown",
-      "description": "The Monomachus Crown (Greek: Στέμμα του Μονομάχου; Hungarian: Monomakhosz-korona) is a set of pieces of engraved Byzantine goldwork, decorated with cloisonné enamel, in the Hungarian National Museum in Budapest, Hungary. It consists of seven gold plates depicting Byzantine Emperor Constantine IX Monomachus, his wife Zoe, her sister Theodora, two dancers and two allegorical figures.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Monomacho%27s_crown_-_circa_1042_Budapest.JPG/320px-Monomacho%27s_crown_-_circa_1042_Budapest.JPG",
-      "price": "50 000 000",
+      "title": "Crown of Napoleon",
+      "description": "The crown of Napoleon was made by the jeweller Martin-Guillaume Biennais with antique cameos for the coronation of the Emperor in 1804. His gilded crown of laurels was destroyed in 1819 by Louis XVIII with the one of Empress Josephine, the orb and the eagle sceptre. His coronation throne is at the Louvre and the coronation ring of Empress Josephine at the Château de Malmaison.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Crown_of_Napoleon_I.png/250px-Crown_of_Napoleon_I.png",
+      "price": 70000000,
       "available": true
     },
     {
       "id": 9,
-      "title": "Monomakh's Cap",
-      "description": "The Monomakh's Cap (Russian: шапка Мономаха, romanized: shapka Monomakha), also called the Golden Cap (Russian: шапка Золотая, romanized: shapka Zolotaya), is a chief relic of the Russian Grand Princes and Tsars. It is a symbol-crown of the Russian autocracy, and is the oldest of the crowns currently exhibited at the Imperial treasury section of the Kremlin Armoury.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Armoury-flickr09.jpg/266px-Armoury-flickr09.jpg",
-      "price": "32 000 000",
+      "title": "Scepter of Charles V",
+      "description": "One of the few surviving pieces of the medieval French crown jewels is the sceptre that Charles V had made for the future coronation of his son, Charles VI, currently on display in the Louvre. It is over five feet long, and at the top is a lily supporting a small statuette of Charlemagne. This evocation of Charlemagne may also explain why this sceptre was included in the imperial regalia of Napoleon I.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sceptre_de_Charles_V.jpg/220px-Sceptre_de_Charles_V.jpg",
+      "price": 52000000,
       "available": true
     },
     {
-      "title": "Crown of Empress Eugénie",
-      "description": "The crown of Empress Eugénie was created in 1855 by Gabriel Lemonnier for the World's fair, like the one of the Emperor which was destroyed in 1887. But Napoleon III finally chose not to be crowned. Her diadem by the same jeweller is as well presented in the Louvre with a large diamond brooch by Alfred Bapst bearing two big Mazarin stones, as well as a large corsage diamond knot and a pearl and diamond shoulder brooch, both by François Kramer.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Crown_of_Empress_Eugenie.png",
-      "price": "49 000 000",
+      "title": "Main de Justice",
+      "description": "A typically French type of sceptre is the Main de Justice (Hand of Justice), which has as its finial an ivory Hand of God in a blessing gesture. Only the ivory finial itself appears to be medieval and probably comes from one of the three former Hands of Justice in the treasure of Saint Denis, perhaps the one of Saint Louis. The present golden rod which it terminates was probably made for either the coronation of Napoleon I or that of Charles X.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Main_Justice_Louvre.jpg/220px-Main_Justice_Louvre.jpg",
+      "price": 41000000,
       "id": 10,
       "available": true
     },
     {
       "id": 11,
-      "title": "Reichskrone",
-      "description": "A hoop crown with a characteristic octagonal shape, was the coronation crown of the Holy Roman Emperor, probably from the late 10th century until the dissolution of the Holy Roman Empire in 1806. The crown was used in the coronation of the King of the Romans, the title assumed by the Emperor-elect immediately after his election. It is now kept in the Imperial Treasury at the Hofburg in Vienna, Austria.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Holy_Roman_Empire_Crown_%28Imperial_Treasury%292.jpg/220px-Holy_Roman_Empire_Crown_%28Imperial_Treasury%292.jpg",
-      "price": "44 000 000",
-      "available": true
-    },
-    {
-      "id": 12,
-      "title": "Crown Jewels",
-      "description": "Originally the Crown Jewels of England, are a collection of royal ceremonial objects kept in the Tower of London which include the coronation regalia and vestments worn by British monarchs. Symbols of 800 years of monarchy, the coronation regalia are the only working set in Europe and the collection is the most historically complete of any regalia in the world.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Saint_Edward%27s_Crown.jpg/255px-Saint_Edward%27s_Crown.jpg",
-      "price": "46 000 000",
-      "available": false
-    },
-    {
-      "id": 13,
-      "title": "Monomachus Crown",
-      "description": "The Monomachus Crown (Greek: Στέμμα του Μονομάχου; Hungarian: Monomakhosz-korona) is a set of pieces of engraved Byzantine goldwork, decorated with cloisonné enamel, in the Hungarian National Museum in Budapest, Hungary. It consists of seven gold plates depicting Byzantine Emperor Constantine IX Monomachus, his wife Zoe, her sister Theodora, two dancers and two allegorical figures.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Monomacho%27s_crown_-_circa_1042_Budapest.JPG/320px-Monomacho%27s_crown_-_circa_1042_Budapest.JPG",
-      "price": "50 000 000",
-      "available": true
-    },
-    {
-      "id": 14,
-      "title": "Monomakh's Cap",
-      "description": "The Monomakh's Cap (Russian: шапка Мономаха, romanized: shapka Monomakha), also called the Golden Cap (Russian: шапка Золотая, romanized: shapka Zolotaya), is a chief relic of the Russian Grand Princes and Tsars. It is a symbol-crown of the Russian autocracy, and is the oldest of the crowns currently exhibited at the Imperial treasury section of the Kremlin Armoury.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Armoury-flickr09.jpg/266px-Armoury-flickr09.jpg",
-      "price": "32 000 000",
-      "available": true
-    },
-    {
-      "title": "Crown of Empress Eugénie",
-      "description": "The crown of Empress Eugénie was created in 1855 by Gabriel Lemonnier for the World's fair, like the one of the Emperor which was destroyed in 1887. But Napoleon III finally chose not to be crowned. Her diadem by the same jeweller is as well presented in the Louvre with a large diamond brooch by Alfred Bapst bearing two big Mazarin stones, as well as a large corsage diamond knot and a pearl and diamond shoulder brooch, both by François Kramer.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Crown_of_Empress_Eugenie.png",
-      "price": "49 000 000",
-      "id": 15,
-      "available": true
-    },
-    {
-      "id": 16,
-      "title": "Reichskrone",
-      "description": "A hoop crown with a characteristic octagonal shape, was the coronation crown of the Holy Roman Emperor, probably from the late 10th century until the dissolution of the Holy Roman Empire in 1806. The crown was used in the coronation of the King of the Romans, the title assumed by the Emperor-elect immediately after his election. It is now kept in the Imperial Treasury at the Hofburg in Vienna, Austria.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Holy_Roman_Empire_Crown_%28Imperial_Treasury%292.jpg/220px-Holy_Roman_Empire_Crown_%28Imperial_Treasury%292.jpg",
-      "price": "44 000 000",
-      "available": true
-    },
-    {
-      "id": 17,
-      "title": "Crown Jewels",
-      "description": "Originally the Crown Jewels of England, are a collection of royal ceremonial objects kept in the Tower of London which include the coronation regalia and vestments worn by British monarchs. Symbols of 800 years of monarchy, the coronation regalia are the only working set in Europe and the collection is the most historically complete of any regalia in the world.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Saint_Edward%27s_Crown.jpg/255px-Saint_Edward%27s_Crown.jpg",
-      "price": "46 000 000",
-      "available": false
-    },
-    {
-      "id": 18,
-      "title": "Monomachus Crown",
-      "description": "The Monomachus Crown (Greek: Στέμμα του Μονομάχου; Hungarian: Monomakhosz-korona) is a set of pieces of engraved Byzantine goldwork, decorated with cloisonné enamel, in the Hungarian National Museum in Budapest, Hungary. It consists of seven gold plates depicting Byzantine Emperor Constantine IX Monomachus, his wife Zoe, her sister Theodora, two dancers and two allegorical figures.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Monomacho%27s_crown_-_circa_1042_Budapest.JPG/320px-Monomacho%27s_crown_-_circa_1042_Budapest.JPG",
-      "price": "50 000 000",
-      "available": true
-    },
-    {
-      "id": 19,
-      "title": "Monomakh's Cap",
-      "description": "The Monomakh's Cap (Russian: шапка Мономаха, romanized: shapka Monomakha), also called the Golden Cap (Russian: шапка Золотая, romanized: shapka Zolotaya), is a chief relic of the Russian Grand Princes and Tsars. It is a symbol-crown of the Russian autocracy, and is the oldest of the crowns currently exhibited at the Imperial treasury section of the Kremlin Armoury.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Armoury-flickr09.jpg/266px-Armoury-flickr09.jpg",
-      "price": "32 000 000",
-      "available": true
-    },
-    {
-      "title": "Crown of Empress Eugénie",
-      "description": "The crown of Empress Eugénie was created in 1855 by Gabriel Lemonnier for the World's fair, like the one of the Emperor which was destroyed in 1887. But Napoleon III finally chose not to be crowned. Her diadem by the same jeweller is as well presented in the Louvre with a large diamond brooch by Alfred Bapst bearing two big Mazarin stones, as well as a large corsage diamond knot and a pearl and diamond shoulder brooch, both by François Kramer.",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Crown_of_Empress_Eugenie.png",
-      "price": "49 000 000",
-      "id": 20,
+      "title": "The Throne of Dagobert",
+      "description": "The Throne of Dagobert coming from Saint Denis can now be seen on the Richelieu site of the National Library of France. This masterpieces among hardstone carvings or engraved gems of Antiquity, was carved with Dionysiac vignettes and emblems, probably in Alexandria during the 1st century BC or the 1st century AD. It was stolen in 1804, and recovered without its Carolingian gem-studded gold mountings.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Paris_Mus%C3%A9e_Cluny_Tr%C3%B4ne_de_Dagobert_135.jpg/220px-Paris_Mus%C3%A9e_Cluny_Tr%C3%B4ne_de_Dagobert_135.jpg",
+      "price": 44000000,
       "available": true
     }
   ]
