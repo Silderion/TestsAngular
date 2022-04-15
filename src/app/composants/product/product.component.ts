@@ -1,3 +1,4 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
 import { ProduitsService } from 'src/app/service/produits.service';
 
@@ -17,10 +18,13 @@ newProduct = {
   price: 0,
   available : false
 }
+
+isAuthenticated = this.ps.isAuthenticated
   constructor(private ps : ProduitsService) { }
 
   ngOnInit(): void {
     this.getProduits();
+    this.isAuthenticated;
   }
   getProduits(){
     this.ps.getProduits().subscribe(data => {

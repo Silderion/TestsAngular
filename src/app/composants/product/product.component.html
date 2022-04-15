@@ -55,7 +55,7 @@
           <div class="card overflow-auto border border-5 rounded m-5" style="width: 22rem; height: 45rem;" [ngClass]="{'border-success': product.available, 'border-danger': !product.available}">
             <img src="{{product.image}}" class="card-img-top" alt="{{product.title}}" style="height: 18rem;">
 
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" (click)="editProduct(product)" data-bs-target="#staticBackdrop">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" (click)="editProduct(product)" data-bs-target="#staticBackdrop" *ngIf="isAuthenticated">
               Edit
             </button>
 
@@ -107,8 +107,8 @@
 
               <div class="d-flex justify-content-between">
                 <a href="#" class="btn btn-success">{{product.price}}€</a>
-                <button class="btn btn-warning" (click)="availabilityFromProducts(product)">Available</button>
-                <button class="btn btn-danger r-4" (click)="supprimer(product.id)">Delete</button>
+                <button class="btn btn-warning" (click)="availabilityFromProducts(product)" *ngIf="isAuthenticated">Available</button>
+                <button class="btn btn-danger r-4" (click)="supprimer(product.id)" *ngIf="isAuthenticated">Delete</button>
               </div>
 
             </div>
