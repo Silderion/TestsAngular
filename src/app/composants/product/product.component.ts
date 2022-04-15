@@ -9,6 +9,14 @@ import { ProduitsService } from 'src/app/service/produits.service';
 export class ProductComponent implements OnInit {
 products: any;
 afficher:boolean = false;
+
+newProduct = {
+  title: "",
+  description: "",
+  image: "",
+  price: 0,
+  available : false
+}
   constructor(private ps : ProduitsService) { }
 
   ngOnInit(): void {
@@ -28,8 +36,8 @@ afficher:boolean = false;
     });
   }
 
-  changeAvailability(product:any){
-    this.ps.disponible(product.id, product.available).subscribe(data=>{
+  availabilityFromProducts(product: any) {
+    this.ps.availabilityFromService(product).subscribe(() => {
       this.getProduits();
     })
   }
@@ -41,11 +49,20 @@ afficher:boolean = false;
     })
   }
 
-  searchByKeyword(search:any){
-    let test2 = search.value
-    this.ps.searchByKeywordService(test2).subscribe(data => {
+  filterMotsClesFromProducts(motsclesForm: any) {
+    this.ps.filterMotsClesFromService(motsclesForm).subscribe(data => {
       this.products = data;
     })
   }
 
+  editProduct(updateData:any){
+    this.newProduct = updateData
+    console.log(this.newProduct)
+  }
+
+  updateProduct(product:any){
+    product = this.newProduct
+    this.ps.updateProductService(product).subscribe(() =>{
+    })
+  }
 }

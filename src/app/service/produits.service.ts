@@ -20,21 +20,23 @@ export class ProduitsService {
     return this.http.post("http://localhost:3000/products", productForm);
   }
 
-  disponible(id:any, available:any){
-    if(available){
-      return this.http.patch("http://localhost:3000/"+id, {available: false})
-    } else {
-      return this.http.patch("http://localhost:3000/"+id, {available: true})
-    }
+  availabilityFromService(product: any) {
+    let available = product.available;
+    return this.http.patch("http://localhost:3000/products/" + product.id, {available: !available});
   }
+
   searchByRangeService(search:any){
     let min = search.min;
     let max = search.max;
     return this.http.get("http://localhost:3000/products?price_gte="+min+"&price_lte="+max);
   }
 
-  searchByKeywordService(search:any){
-    let keyword = search.keyword;
-    return this.http.get("http://localhost:3000/product?q="+keyword);
+  filterMotsClesFromService(motsClesForm: any) {
+    let mots = motsClesForm.value.motscles;
+    return this.http.get("http://localhost:3000/products?q=" + mots);
+  }
+
+  updateProductService(updateData:any){
+    return this.http.patch("http://localhost:3000/products/"+ updateData.id, updateData)
   }
 }

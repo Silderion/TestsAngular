@@ -14,7 +14,7 @@
       "description": "Originally the Crown Jewels of England, are a collection of royal ceremonial objects kept in the Tower of London which include the coronation regalia and vestments worn by British monarchs. Symbols of 800 years of monarchy, the coronation regalia are the only working set in Europe and the collection is the most historically complete of any regalia in the world.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Saint_Edward%27s_Crown.jpg/255px-Saint_Edward%27s_Crown.jpg",
       "price": 46000000,
-      "available": false
+      "available": true
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
     },
     {
       "title": "Crown of Empress Eugénie",
-      "description": "The crown of Empress Eugénie was created in 1855 by Gabriel Lemonnier for the World's fair, like the one of the Emperor which was destroyed in 1887. But Napoleon III finally chose not to be crowned. Her diadem by the same jeweller is as well presented in the Louvre with a large diamond brooch by Alfred Bapst bearing two big Mazarin stones, as well as a large corsage diamond knot and a pearl and diamond shoulder brooch, both by François Kramer.",
+      "description": "The crown of Empress Eugénie was created in 1855 by Gabriel Lemonnier for the World's fair. But Napoleon III finally chose not to be crowned. Her diadem by the same jeweller is as well presented in the Louvre with a large diamond brooch by Alfred Bapst bearing two big Mazarin stones, as well as a large corsage diamond knot and a pearl and diamond shoulder brooch, both by François Kramer.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Crown_of_Empress_Eugenie.png",
       "price": 49000000,
       "id": 5,
@@ -54,7 +54,7 @@
       "description": "Of about 20 documented royal crowns of the Ancien Régime, the only surviving one from the destructions of 1590 and 1793 is the crown of Louis XV. The king had the Regent Diamond set in the lower part of the fleur-de-lis in the front of his crown, while eight of the famous Mazarin diamonds that the cardinal had bequeathed to the French Crown are set in the other seven fleur-de-lis and in the circlet of the crown.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Crowns%2C_Mus%C3%A9e_du_Louvre%2C_April_2011blackened.jpg/220px-Crowns%2C_Mus%C3%A9e_du_Louvre%2C_April_2011blackened.jpg",
       "price": 58000000,
-      "available": false
+      "available": true
     },
     {
       "id": 8,
