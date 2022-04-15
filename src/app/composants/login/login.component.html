@@ -1,6 +1,10 @@
 <div class="container">
   <h1 class="text-center text-info mt-4 mb-4">Connexion :</h1>
 
+  <div class="alert alert-danger text-center mt-4 ml-4 mb-4 pl-4 pb-4" *ngIf="message">
+    Identifiants incorrects
+  </div>
+
 
 <form (ngSubmit)="login(loginForm)" #loginForm="ngForm">
   <div class="form-group m-4">
